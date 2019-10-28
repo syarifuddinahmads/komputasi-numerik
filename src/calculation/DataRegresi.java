@@ -40,10 +40,16 @@ public class DataRegresi {
     }  
 
     public int getzY() {
+        for (int i = 0; i < data.size(); i++) {
+            this.zY += data.get(i).getY();
+        }
         return zY;
     }
 
     public int getzX2() {
+        for (int i = 0; i < data.size(); i++) {
+            this.zX2 += data.get(i).getX() * data.get(i).getX() ;
+        }
         return zX2;
     }
 
@@ -56,14 +62,16 @@ public class DataRegresi {
 
     public int getzXY() {
         for (int i = 0; i < data.size(); i++) {
-            zXY += data.get(i).getX() * data.get(i).getY() ;
+            this.zXY += data.get(i).getX() * data.get(i).getY() ;
         }
-        System.out.println("==== "+zXY);
         return zXY;
     }
 
     public int getzXX2() {
-        return zXX2;
+        for (int i = 0; i < data.size(); i++) {
+            this.zXX2 += data.get(i).getX();
+        }
+        return (zXX2 * zXX2);
     }
     
     

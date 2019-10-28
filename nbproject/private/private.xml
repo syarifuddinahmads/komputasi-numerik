@@ -3,10 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/udin/NetBeansProjects/KomputasiNumerik/src/interpolasi/linear/Main.java</file>
-            <file>file:/home/udin/NetBeansProjects/KomputasiNumerik/src/regresi/liniear/Main.java</file>
-            <file>file:/home/udin/NetBeansProjects/KomputasiNumerik/src/regresi/liniear/Calculation.java</file>
-            <file>file:/home/udin/NetBeansProjects/KomputasiNumerik/src/interpolasi/linear/Calculation.java</file>
+            <file>file:/home/udin/NetBeansProjects/KomputasiNumerik/src/calculation/Regresi.java</file>
+            <file>file:/home/udin/NetBeansProjects/KomputasiNumerik/src/Main.java</file>
+            <file>file:/home/udin/NetBeansProjects/KomputasiNumerik/src/calculation/Interpolasi.java</file>
+            <file>file:/home/udin/NetBeansProjects/KomputasiNumerik/src/calculation/DataInterpolasi.java</file>
+            <file>file:/home/udin/NetBeansProjects/KomputasiNumerik/src/calculation/DataRegresi.java</file>
         </group>
     </open-files>
 </project-private>
